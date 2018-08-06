@@ -1,0 +1,201 @@
+﻿capital = 765
+
+oob = "NIG_1949"
+
+# Starting tech
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	
+	## Support ##
+	tech_support = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+}
+
+
+add_ideas = {
+	population_growth_explosion
+}
+
+set_convoys = 0
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 8 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 55 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 37 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = nationalism
+	last_election = "1960.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Hamani Diori"
+	picture = "Hamani_Diori.dds"
+	ideology = african_nationalism
+}
+1980.1.1 = {
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 6 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 14 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 53 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 27 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = neutrality
+	last_election = "1960.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Seyni Kountché"
+	picture = "Seyni_Kountche.dds"
+	ideology = despotism
+ }
+}
+1990.1.1 = {
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 3 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 14 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 27 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 56 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = conservative
+	last_election = "1990.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Ali Saibou"
+	picture = "Ali_Saibou.dds"
+	ideology = conservatism
+ }
+}
+2000.1.1 = {
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 3 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 37 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 60 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = conservative
+	last_election = "1999.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Mamadou Tandja"
+	picture = "Mamadou_Tandja.dds"
+	ideology = conservatism
+ }
+}

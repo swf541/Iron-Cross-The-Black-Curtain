@@ -1,0 +1,32 @@
+
+state={
+	id=539
+	name="STATE_539"
+	manpower = 1564000
+	
+	state_category = city
+
+	history={
+		owner = ROC
+		add_core_of = ROC
+		add_core_of = GAB
+
+		victory_points = {
+			10948 2
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			coal_plant = 1
+		}
+		1960.1.1 = {
+			owner = GAB
+			remove_core_of = ROC
+		}
+	}
+
+	provinces={
+		10948
+	}
+}

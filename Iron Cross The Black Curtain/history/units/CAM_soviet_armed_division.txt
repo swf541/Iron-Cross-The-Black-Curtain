@@ -1,0 +1,41 @@
+﻿division_template = {
+	name = "Medium Armored Division"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0}
+       	        mechanized = { x = 1 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+####### OOB #######
+units = {
+	####### HOME THEATRE #######
+	division= {	
+		name = "1.Armored Division"
+		location = 7404
+		division_template = "Medium Armored Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "2.Armored Division"
+		location = 7404
+		division_template = "Medium Armored Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division= {	
+		name = "3.Armored Division"
+		location = 7404
+		division_template = "Medium Armored Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+}

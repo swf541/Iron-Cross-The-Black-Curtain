@@ -1,0 +1,29 @@
+state={
+	id=687
+	name="STATE_687"
+
+	history={
+		owner = GUY
+		victory_points = {
+			13349 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			13349 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = GUY
+
+	}
+
+	provinces={
+		13349 13350 
+	}
+	manpower=79358
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

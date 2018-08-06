@@ -1,0 +1,23 @@
+state={
+	id=73
+	name="STATE_73"
+	manpower = 854300
+	
+	state_category =town
+	
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure =2
+		}
+		add_core_of = UKR
+		add_core_of = SOV
+	1991.1.1 = {
+		remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		3548 6571 9563 11536 11691 
+	}
+}

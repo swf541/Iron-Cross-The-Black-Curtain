@@ -1,0 +1,28 @@
+state={
+	id=1163
+	name="STATE_1163"
+	history={
+		owner = JAM
+		victory_points = { 13333 1 }
+		buildings = {
+			infrastructure = 2
+			13333 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = JAM
+		1959.7.4 = {
+		owner = ENG
+		remove_core_of = JAM
+		}
+		1981.1.1 = {
+		add_core_of = ENG
+		}
+	}
+	provinces={
+		13333 
+	}
+	manpower=60765
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

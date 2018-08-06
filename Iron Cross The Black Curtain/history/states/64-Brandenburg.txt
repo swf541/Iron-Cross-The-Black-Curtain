@@ -1,0 +1,36 @@
+
+state={
+	id=64
+	name="STATE_64"
+	resources={
+		steel=42.000
+	}
+
+	history={
+		owner = DDR
+		1990.10.3 = {
+			owner = WGR
+
+		}
+		victory_points = {
+			375 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+			coal_plant = 2
+
+		}
+		add_core_of = DDR
+		add_core_of = WGR
+
+	}
+
+	provinces={
+		375 478 3207 3367 3499 6441 9428 9496 11219 11444 11545 
+	}
+	manpower=7205029
+	buildings_max_level_factor=1.000
+	state_category=city
+}

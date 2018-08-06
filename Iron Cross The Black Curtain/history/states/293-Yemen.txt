@@ -1,0 +1,33 @@
+state={
+	id=293
+	name="STATE_293"
+
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+            coal_plant = 1
+			10840 = {
+				naval_base = 1
+			}
+
+		}
+		victory_points = {
+			10840 5 
+		}
+		add_core_of = YEM
+		add_core_of = DRY
+		1990.5.22 ={
+		    remove_core_of = DRY
+		}
+	}
+
+	provinces={
+		10840 
+	}
+	manpower=4109000
+	buildings_max_level_factor=1.000
+	state_category= city
+}

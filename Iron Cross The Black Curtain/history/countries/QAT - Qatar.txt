@@ -1,0 +1,112 @@
+﻿capital = 780
+
+oob = "QAT_1949"
+
+# Starting tech
+
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	
+	## Support ##
+
+	## Artillery  ##
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+}
+
+set_convoys = 3
+
+set_cosmetic_tag = QAT_ENG
+
+add_ideas = {
+	population_growth_explosion
+    extensive_conscription
+}
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 2 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 89 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 2 }
+        radical_shiaism = { popularity = 0 }
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 6 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = monarchism
+	last_election = "1945.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+  create_country_leader = {
+	name = "Abdullah bin Jassim Al Thani"
+	picture = "Abdullah_bin_Jassim_Al_Thani.dds"
+	ideology = absolute_monarchist
+     }
+
+1949.08.20 = {
+  create_country_leader = {
+	name = "Ali bin Abdullah Al Thani"
+	picture = "Ali_bin_Abdullah_Al_Thani.dds"
+	ideology = absolute_monarchist
+     }
+  }
+
+1960.10.24 = {
+  create_country_leader = {
+	name = "Ahmad bin Ali Al Thani"
+	picture = "Ahmad_bin_Ali_Al_Thani.dds"
+	ideology = absolute_monarchist
+     }
+  }
+
+1972.2.22 = {
+  create_country_leader = {
+	name = "Khalifa bin Hamad Al Thani"
+	picture = "Khalifa_bin_Hamad_Al_Thani.dds"
+	ideology = absolute_monarchist
+     }
+  }
+
+1971.1.1 = {
+	drop_cosmetic_tag = yes
+}
+
+1995.6.27 = {
+  create_country_leader = {
+	name = "Hamad bin Khalifa Al Thani"
+	picture = "Hamad_bin_Khalifa_Al_Thani.dds"
+	ideology = absolute_monarchist
+     }
+  }

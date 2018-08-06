@@ -1,0 +1,109 @@
+﻿capital = 314
+
+oob = "ELS_1949"
+
+# Starting tech
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1 	iw_armored_vehicles = 1
+	team_weapons_1 = 1
+	
+	## Support ##
+	tech_support = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	
+	## Armor ## 	iw_armored_vehicles = 1
+	motorised_infantry = 1
+}
+
+add_ideas = {
+	population_growth_stagnation
+}
+
+set_country_flag = monroe_doctrine
+
+set_convoys = 20
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+			banned = yes #default is no
+		}
+
+		fascism = {
+			popularity = 100
+		}
+		
+		communism = {
+			popularity = 0
+			banned = yes #default is no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1949.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Óscar Osorio"
+	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+	picture = "Osorio.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+1956.1.1 = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+			banned = yes #default is no
+		}
+
+		fascism = {
+			popularity = 100
+		}
+		
+		communism = {
+			popularity = 0
+			banned = yes #default is no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1956.10.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "José María Lemus"
+	picture = "Lemus.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+}
+

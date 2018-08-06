@@ -1,0 +1,46 @@
+state={
+	id=731
+	name="STATE_731"
+	manpower=1155700
+	state_category = town
+	resources={
+		chromium=13
+	}
+	history={
+		owner = GRE
+		1949.1.1 = {
+			PDG = {
+				set_province_controller = 3526
+				set_province_controller = 3844
+			}
+		}
+		1950.1.1 = {
+			GRE = {
+				set_province_controller = 3526
+				set_province_controller = 3844
+			}
+		}
+		victory_points = {
+			11818 5 
+		}
+		buildings = {
+			infrastructure =3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+			coal_plant = 1
+			11818 = {
+				naval_base =2
+
+			}
+
+		}
+		add_core_of = GRE
+		add_core_of = PDG
+
+	}
+	
+	provinces={
+		895 936 966 3526 3844 3936 10163 11818 
+	}
+}

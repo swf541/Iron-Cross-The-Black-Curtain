@@ -1,0 +1,32 @@
+state={
+	id=196
+	name="STATE_196"
+	manpower = 728363
+	
+	state_category = town
+	
+	resources={
+		chromium=8
+	}
+
+	history={
+		owner = UKR
+		buildings = {
+			infrastructure =3
+			air_base =2
+			coal_plant = 1
+		}
+		add_core_of = UKR
+		add_core_of = SOV
+		victory_points = {
+		 3573 1
+		}
+	1991.1.1 = {
+		remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		568 721 737 767 3573 6771 9712 11715 
+	}
+}

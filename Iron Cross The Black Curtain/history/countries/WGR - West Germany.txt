@@ -1,0 +1,1076 @@
+﻿capital = 57
+
+oob = "WGR_1945"
+
+# Starting tech
+set_technology = {
+	
+	## Tech ##
+	ww_production = 1
+	ww_construction = 1
+	ww_oil = 1
+	ww_pc = 1 
+	radio = 1
+	radar_0 = 1
+
+	
+	advanced_rocket_engines = 1
+	liquid_propelled_rocket = 1
+	jet_engines = 1
+	rocket_engines = 1
+	atomic_research = 1
+	
+	## Air ##
+	early_bomber = 1
+	early_fighter = 1
+	fighter1 = 1
+	fighter2 = 1
+	fighter3 = 1
+	heavy_fighter1 = 1
+	heavy_fighter2 = 1
+	heavy_fighter3 = 1
+	CAS1 = 1
+	CAS2 = 1
+	CAS3 = 1
+	CAS4 = 1
+	naval_bomber1 = 1
+	naval_bomber2 = 1
+	naval_bomber3 = 1
+	strategic_bomber1 = 1
+	strategic_bomber2 = 1
+	tactical_bomber1 = 1
+	tactical_bomber2 = 1
+	tactical_bomber3 = 1
+	jet_multirole1 = 1
+	jet_interceptor1 = 1
+	## aircraft originally designed for Graf Zeppelin
+	cv_CAS1 = 1
+	cv_early_fighter = 1
+	cv_fighter1 = 1
+	cv_naval_bomber1 = 1
+
+	## Navy ##
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_destroyer = 1
+	early_submarine = 1
+	battle_cruiser_1 = 1
+	early_battleship = 1
+	battleship_2 = 1
+	frigate_1 = 1
+	frigate_2 = 1
+	transport = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1
+	amphibious1 = 1
+	heavy_tanks_1 = 1
+	heavy_tanks_2 = 1
+	light_tanks_1 = 1
+	main_battle_tanks = 1
+	main_battle_tanks_1 = 1
+	super_heavy_tanks_1 = 1
+	super_heavy_tanks_2 = 1
+	mechanized_heavy_infantry = 1
+	mechanized_infantry = 1
+	motorised_infantry = 1
+
+	## Artillery ##
+	gw_artillery = 1
+	selfpropart1 = 1
+	sp_rocket1 = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+
+	## Infantry ##
+	team_weapons_1 = 1
+	infantry_equip_1 = 1 
+	specialist_1 = 1
+	paratroopers = 1
+	tech_mountaineers = 1
+
+	## Support ##
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+}
+
+
+set_research_slots = 4
+set_convoys = 50
+set_stability = 0.7
+
+set_cosmetic_tag = ENG_GER
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 5 }
+        fascism = { popularity = 10 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 25 }
+        neutrality = { popularity = 30 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 5 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 0 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 25 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+	}
+	
+	ruling_party = neutrality
+	last_election = "1945.8.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Bernard Montgomery"
+	picture = "Portrait_ENG_Montgomery.dds"
+	ideology = military_junta
+	expire = 1949.1.1
+}
+
+
+1949.1.1 = {
+    capital = 42
+    oob = "WGR_1949"
+	drop_cosmetic_tag = yes
+
+	set_politics = {
+
+		parties = {
+			liberal = { 
+				popularity = 12.94
+			}
+			fascism = {
+				popularity = 1.24
+			}
+			democratic = {
+				popularity = 4.23
+			}
+			Liberal_Conservatism = {
+				popularity = 4.23
+			}
+			communism = {
+				popularity = 3.75
+			}
+			centrist = {
+				popularity = 2.49
+			}
+			Social_Democratic = {
+				popularity = 32.59	
+			}
+			Christian_Democratic = {
+				popularity = 34.58	
+			}
+			neutrality = {
+				popularity = 3.99
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1945.8.14"
+		election_frequency = 48
+		elections_allowed = yes
+
+	}
+
+	ENG = { diplomatic_relation = { country = WGR relation = military_access active = yes } }
+	USA = { diplomatic_relation = { country = WGR relation = military_access active = yes } }
+	FRA = { diplomatic_relation = { country = WGR relation = military_access active = yes } }
+	BEL = { diplomatic_relation = { country = WGR relation = military_access active = yes } }
+	CAN = { diplomatic_relation = { country = WGR relation = military_access active = yes } }
+	HOL = { diplomatic_relation = { country = WGR relation = military_access active = yes } }
+	DEN = { diplomatic_relation = { country = WGR relation = military_access active = yes } }
+
+	add_ideas = {
+		Occupation
+		NATO_Military_Restrictions
+		Scientific_Collapse
+		population_growth_steady
+		Disorganized_Navy
+	}
+}
+
+create_country_leader = {
+	name = "Otto Ernst Remer"
+	picture = "Portrait_DDR_Remer.dds"
+	expire = "1965.1.1"
+	ideology = neo_nazism
+}
+
+create_country_leader = {
+	name = "Konrad Adenauer"
+	desc = "pol_desc_konrad"
+	picture = "Portrait_WestGermany_Konrad_Adenauer.dds"
+	expire = "1967.4.19"
+	ideology = christian_democracy
+}
+
+create_country_leader = {
+	name = "Kurt Schumacher"
+	picture = "Portrait_WestGermany_Kurt_Schumacher.dds"
+	expire = "1952.8.2"
+	ideology = social_democrat
+}
+
+create_country_leader = {
+	name = "Franz Blücher"
+	picture = "Portrait_WestGermany_Franz_Blucher.dds"
+	expire = "1959.3.26"
+	ideology = left_libertarianism
+}
+
+create_country_leader = {
+	name = "Andreas Baader"
+	picture = "Portrait_WestGermany_Anders_Baader.dds"
+	ideology = maoist
+}
+
+create_country_leader = {
+	name = "Wilhelm III"
+	picture = "Portrait_WestGermany_Wilhelm_III.dds"
+	expire = "1951.6.16"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Ernst Thälmann"
+	picture = "Portrait_WestGermany_Ernst_Tahlmann.dds"
+	ideology = stalinism
+}	
+
+create_corps_commander = {
+	name = "Albert Schnez"
+	picture = "Portrait_WGR_Albert_Schnez.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Adolf Heusinger"
+	picture = "Portrait_WGR_Adolf_Heusinger.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hasso von Manteuffel"
+	picture = "Portrait_WGR_Manteuffel.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Max Josef Pemsel"
+	picture = "Portrait_WGR_Pemsel.dds"
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hans Speidel"
+	picture = "Portrait_WGR_Hans_Speidel.dds"
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ulrich de Maiziere"
+	picture = "Portrait_WGR_Maiziere.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Wolf Graf von Baudissin"
+	picture = "Portrait_WGR_Baudissin.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Johann von Kielmansegg"
+	picture = "Portrait_WGR_Kielmansegg.dds"
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_equipment_variant = {
+	name = "Königsberg Class"
+	type = light_cruiser_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_engine_upgrade = 2
+		ship_gun_upgrade = 2
+		ship_anti_air_upgrade = 2
+	}
+	obsolete = yes
+}
+
+1953.9.6 = {
+	set_politics = {
+		parties = {
+			liberal = { 
+				popularity = 10.42
+			}
+			fascism = {
+				popularity = 5.30
+			}
+			democratic = {
+				popularity = 2.95
+			}
+			Liberal_Conservatism = {
+				popularity = 0
+			}
+			communism = {
+				popularity = 0
+			}
+			centrist = {
+				popularity = 0.59
+			}
+			Social_Democratic = {
+				popularity = 31.83
+			}
+			Christian_Democratic = {
+				popularity = 48.92
+			}
+			neutrality = {
+				popularity = 0
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1953.9.6"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Erich Ollenhauer"
+		picture = "Portrait_WestGermany_Erich_Ollenhauer.dds"
+		expire = "1963.12.14"
+		ideology = democratic_socialist
+	}
+
+#	remove_ideas = fascism_drift_1
+#	remove_ideas = centrist_drift_1
+#	swap_ideas = { remove_idea = liberal_drift_3 add_idea = liberal_drift_2 }
+}
+
+1955.1.1 = {
+    add_ideas = nato_member
+}
+
+1960.1.1 = {
+	set_politics = {
+		parties = {
+			liberal = { 
+				popularity = 7.5
+			}
+			fascism = {
+				popularity = 1
+			}
+			liberal = {
+				popularity = 6
+			}
+			centrist = {
+				popularity = 0
+			}
+			democratic = {
+				popularity = 3.28
+			}
+			Social_Democratic = {
+				popularity = 34
+			}
+			Christian_Democratic = {
+				popularity = 47
+			}
+			monarchism = { popularity = 0 }
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1957.10.22"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Reinhold Maier"
+		picture = "Portrait_WestGermany_Reinhold_Maier.dds"
+		expire = "1971.8.19"
+		ideology = left_libertarianism
+	}
+
+	remove_ideas = {
+		Occupation
+		NATO_Military_Restrictions
+		Scientific_Collapse
+		Disorganized_Navy
+	}
+	set_party_name = { ideology = National_Socialism long_name = "Deutsche Reichspartei" name = DRP }
+	set_party_name = { ideology = communism long_name = "Deutsche Kommunistische Partei" name = DKP }
+	set_party_name = { ideology = nationalism long_name = "Deutsche Partei" name = DP }
+
+	set_technology = {
+
+		## Engineering + Industry ##
+		ww_production = 1
+		ww_construction = 1
+		ww_oil = 1
+		logistics_I = 1
+		logistics_II = 1
+		production_efficiency_I = 1
+		production_efficiency_II = 1
+		management_I = 1
+		management_II = 1
+		agriculture_I = 1
+		civil_engineering_I = 1
+		civil_engineering_II = 1
+		excavation_I = 1
+		materials_I = 1
+		chemistry_I = 1
+		ww_pc = 1
+		hardware_I = 1
+		hardware_II = 1
+		hardware_III = 1
+		software_I = 1
+		software_II = 1
+		radio = 1
+		radar_0 = 1
+		radar_I = 1
+		radar_II = 1
+		coms_I = 1
+		decryption_I = 1
+		enc_I = 1
+
+		## WMD ##
+		chemical_weapons = 1
+		chemical_weapons_2 = 1
+	
+		rocket_engines = 1
+		jet_engines = 1
+		
+		advanced_rocket_engines = 1
+
+		## Space ##
+		liquid_propelled_rocket = 1
+		hybrid_propelled_rocket = 1
+		
+		## Helicopters & Missiles ##
+		early_helicopter = 1
+		utility_helicopter_1 = 1
+		utility_helicopter_2 = 1
+		cargo_helicopter_1 = 1
+		naval_helicopter_1 = 1
+		naval_helicopter_2 = 1
+		cruisemissile_1 = 1
+		cruisemissile_2 = 1
+		cruisemissile_3 = 1
+		navalcruisemissile_1 = 1
+		coastalmissile_1 = 1
+		
+		navalaam_1 = 1
+		
+		aam_1 = 1
+		aam_2 = 1
+		aam_3 = 1
+		agm_1 = 1
+		
+		## Air ##
+		early_bomber = 1
+		early_fighter = 1
+		fighter1 = 1
+		fighter2 = 1
+		fighter3 = 1
+		heavy_fighter1 = 1
+		heavy_fighter2 = 1
+		heavy_fighter3 = 1
+		CAS1 = 1
+		CAS2 = 1
+		CAS3 = 1
+		CAS4 = 1
+		naval_bomber1 = 1
+		naval_bomber2 = 1
+		naval_bomber3 = 1
+		naval_bomber4 = 1
+		naval_bomber5 = 1
+		strategic_bomber1 = 1
+		strategic_bomber2 = 1
+		strategic_bomber3 = 1
+		tactical_bomber1 = 1
+		tactical_bomber2 = 1
+		tactical_bomber3 = 1
+		jet_CAS1 = 1
+		jet_CAS2 = 1
+		jet_CAS3 = 1
+		jet_multirole1 = 1
+		jet_multirole2 = 1
+		jet_multirole3 = 1
+		jet_multirole4 = 1
+		jet_interceptor1 = 1
+		jet_interceptor2 = 1
+		jet_interceptor3 = 1
+		jet_interceptor4 = 1
+		jet_strategic_bomber1 = 1
+		jet_strategic_bomber2 = 1
+		jet_strategic_bomber3 = 1
+		jet_tactical_bomber1 = 1
+		jet_tactical_bomber2 = 1
+		jet_tactical_bomber3 = 1
+		transport1 = 1
+		transport2 = 1
+		transport3 = 1
+		transport4 = 1
+		transport5 = 1
+
+		## Navy ##
+		frigate_1 = 1
+		frigate_2 = 1
+		frigate_3 = 1
+		frigate_4 = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		advanced_destroyer = 1
+		modern_destroyer = 1
+		early_battleship = 1
+		battleship_2 = 1
+		battleship_3 = 1
+		battle_cruiser_1 = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		improved_light_cruiser = 1
+		advanced_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		transport = 1
+		landing_craft = 1
+		tank_landing_craft = 1
+		light_carrier1 = 1
+		
+		## Armor ## 
+		iw_armored_vehicles = 1
+		amphibious1 = 1
+		amphibious2 = 1
+		heavy_tanks_1 = 1
+		heavy_tanks_2 = 1
+		heavy_tanks_3 = 1
+		heavy_tanks_4 = 1
+		light_tanks_1 = 1
+		light_tanks_2 = 1
+		light_tanks_3 = 1
+		light_tanks_4 = 1
+		main_battle_tanks = 1
+		main_battle_tanks_1 = 1
+		main_battle_tanks_2 = 1
+		main_battle_tanks_3 = 1
+		main_battle_tanks_4 = 1
+		
+		
+		
+		
+		
+		super_heavy_tanks_1 = 1
+		super_heavy_tanks_2 = 1
+		super_heavy_tanks_3 = 1
+		mechanized_heavy_infantry = 1
+		mechanized_heavy_infantry2  = 1
+		mechanized_heavy_infantry3  = 1
+		mechanized_infantry = 1
+		mechanized_infantry2 = 1
+		mechanized_infantry3 = 1
+		mechanized_infantry4 = 1
+		mechanized_infantry5 = 1
+		tankdestroyer1 = 1
+		tankdestroyer2 = 1
+		tankdestroyer3 = 1
+		tankdestroyer4 = 1
+		tankdestroyer5 = 1
+		
+		
+		
+		
+		
+		motorised_infantry = 1
+		motorised_infantry_2 = 1
+		motorised_infantry_3 = 1
+
+		## Artillery ##
+		gw_artillery = 1
+		selfpropart1 = 1
+		selfpropart2 = 1
+		selfpropart3 = 1
+		selfpropart4 = 1
+		selfpropart5 = 1
+		sp_rocket1 = 1
+		sp_rocket2 = 1
+		sp_rocket3 = 1
+		sp_aa1 = 1
+		sp_aa2 = 1
+		interwar_antitank = 1
+		antitank1 = 1
+		antitank2 = 1
+		interwar_antiair = 1
+		antiair1 = 1
+		antiair2 = 1
+		antiair3 = 1
+
+		## Infantry ##
+		team_weapons_1 = 1
+		team_weapons_2 = 1
+		infantry_equip_1 = 1 
+		infantry_equip_2 = 1
+		lmg_infantry_weapons1 = 1
+		explosives_1 = 1
+		antitank_1 = 1
+		specialist_1 = 1
+		specialist_2 = 1
+		protection_1 = 1
+		tech_mountaineers = 1
+		marines = 1
+		paratroopers = 1
+		tech_mountaineers2 = 1
+		marines2 = 1
+		paratroopers2 = 1
+		night_vision = 1
+
+		## Support ##
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		tech_field_hospital = 1
+		tech_logistics_company = 1
+		tech_military_police = 1
+		tech_signal_company = 1
+		tech_maintenance_company = 1
+		
+	}
+}
+
+1961.9.17 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 13.43
+			}
+			democratic = {
+				popularity = 0
+			}
+			Social_Democratic = {
+				popularity = 38.08
+			}
+			Christian_Democratic = {
+				popularity = 48.50
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1961.9.17"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Willy Brandt"
+		picture = "Portrait_WestGermany_Willy_Brandt.dds"
+		expire = "1992.10.8"
+		ideology = democratic_socialist
+	}
+
+	create_country_leader = {
+		name = "Erich Mende"
+		picture = "Portrait_WestGermany_Erich_Mende.dds"
+		expire = "1998.5.6"
+		ideology = left_libertarianism
+	}
+
+#	swap_ideas = { remove_idea = liberal_drift_3 add_idea = liberal_drift_2 }
+}
+
+1963.10.17 = {
+	create_country_leader = {
+		name = "Ludwig Erhard"
+		picture = "Portrait_WestGermany_Ludwig_Erhard.dds"
+		expire = "1977.5.5"
+		ideology = christian_democracy
+	}
+}
+
+1965.9.19 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 9.88
+			}
+			Social_Democratic = {
+				popularity = 40.73
+			}
+			Christian_Democratic = {
+				popularity = 49.40
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1965.9.19"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_party_name = { ideology = National_Socialism long_name = "Nationaldemokratische Partei Deutschlands" name = NDPD }
+}
+
+1966.12.1 = {
+	create_country_leader = {
+		name = "Kurt Georg Kiesinger"
+		picture = "Portrait_WestGermany_Kurt_Georg_Kiesinger.dds"
+		expire = "1988.3.9"
+		ideology = christian_democracy
+	}
+}
+
+1969.10.22 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 2.05
+			}
+			Social_Democratic = {
+				popularity = 49.16
+			}
+			Christian_Democratic = {
+				popularity = 48.79
+			}
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1969.10.22"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Walter Scheel"
+		picture = "Portrait_WestGermany_Walter_Scheel.dds"
+		expire = "2016.8.24"
+		ideology = left_libertarianism
+	}
+}
+
+1972.10.19 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 8.27
+			}
+			Social_Democratic = {
+				popularity = 46.37
+			}
+			Christian_Democratic = {
+				popularity = 45.36
+			}
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1972.10.19"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Rainer Barzel"
+		picture = "Portrait_WestGermany_Rainer_Barzel.dds"
+		expire = "2006.8.26"
+		ideology = christian_democracy
+	}
+
+#	swap_ideas = { remove_idea = socialist_drift_5 add_idea = socialist_drift_4 }
+#	swap_ideas = { remove_idea = Christian_Democratic_drift_4 add_idea = Christian_Democratic_drift_5 }
+}
+
+1973.6.12 = {
+	create_country_leader = {
+		name = "Helmut Schmidt"
+		picture = "Portrait_WestGermany_Helmut_Schmidt.dds"
+		expire = "2015.11.10"
+		ideology = social_democrat
+	}
+}
+
+1974.5.16 = {
+	create_country_leader = {
+		name = "Helmut Kohl"
+		picture = "Portrait_WestGermany_Helmut_Kohl.dds"
+		expire = "2017.6.16"
+		ideology = christian_democracy
+	}
+}
+
+1976.10.3 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 7.86
+			}
+			Social_Democratic = {
+				popularity = 43.15
+			}
+			Christian_Democratic = {
+				popularity = 48.99
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1976.10.3"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Hans-Dietrich Genscher"
+		picture = "Portrait_WestGermany_Hans_Dieter_Genscher.dds"
+		expire = "2016.3.31"
+		ideology = left_libertarianism
+	}
+
+#	swap_ideas = { remove_idea = socialist_drift_4 add_idea = socialist_drift_5 }
+#	swap_ideas = { remove_idea = Christian_Democratic_drift_5 add_idea = Christian_Democratic_drift_4 }
+}
+
+1980.10.5 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 6.66
+			}
+			Social_Democratic = {
+				popularity = 47.86
+			}
+			Christian_Democratic = {
+				popularity = 45.47
+			}
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1980.10.5"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Franz-Josef Strauss"
+		picture = "Portrait_WestGermany_Franz_Josef_Strauss.dds"
+		expire = "1988.10.3"
+		ideology = christian_democracy
+	}
+
+#	swap_ideas = { remove_idea = socialist_drift_5 add_idea = socialist_drift_4 }
+#	swap_ideas = { remove_idea = Christian_Democratic_drift_4 add_idea = Christian_Democratic_drift_5 }
+}
+
+1981.10.5 = {
+	create_country_leader = {
+		name = "Helmut Kohl"
+		picture = "Portrait_WestGermany_Helmut_Kohl.dds"
+		expire = "2017.6.16"
+		ideology = christian_democracy
+	}
+}
+
+1983.3.6 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 6.83
+			}
+			democratic = {
+				popularity = 5.42
+			}
+			Social_Democratic = {
+				popularity = 38.76
+			}
+			Christian_Democratic = {
+				popularity = 49.00
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1983.3.6"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	create_country_leader = {
+		name = "Petra Kelly"
+		picture = "Portrait_WestGermany_Petra_Kelly.dds"
+		expire = "1992.10.1"
+		ideology = green
+	}
+
+	create_country_leader = {
+		name = "Hans-Jochen Vogel"
+		picture = "Portrait_WestGermany_Hans_Jochen_Vogel.dds"
+		ideology = social_democrat
+	}
+
+}
+
+1987.1.25 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 9.26
+			}
+			democratic = {
+				popularity = 8.45
+			}
+			Social_Democratic = {
+				popularity = 37.42
+			}
+			Christian_Democratic = {
+				popularity = 44.87
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1987.1.25"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Johannes Rau"
+		picture = "Portrait_WestGermany_Johannes_Rau.dds"
+		expire = "2006.1.27"
+		ideology = democratic_socialist
+	}
+
+	create_country_leader = {
+		name = "Martin Bangemann"
+		picture = "Portrait_WestGermany_Martin_Bangemann.dds"
+		ideology = left_libertarianism
+	}
+
+#	swap_ideas = { remove_idea = liberal_drift_1 add_idea = liberal_drift_2 }
+#	add_ideas = Social_Democratic_drift_1
+}
+
+1990.12.2 = {
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 11.93
+			}
+			democratic = {
+				popularity = 1.21
+			}
+			Social_Democratic = {
+				popularity = 0
+			}
+			Social_Democratic = {
+				popularity = 38.67
+			}
+			Christian_Democratic = {
+				popularity = 48.19
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1990.12.2"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Otto Graf Lambsdorff"
+		picture = "Portrait_WestGermany_Otto_Graf_Lambsdorff.dds"
+		expire = "2009.12.5"
+		ideology = left_libertarianism
+	}
+
+	create_country_leader = {
+		name = "Gregor Gysi"
+		picture = "Portrait_WestGermany_Gregor_Gysi.dds"
+		ideology = social_democrat
+	}
+
+#	swap_ideas = { remove_idea = liberal_drift_2 add_idea = liberal_drift_1 }
+}
+
+1994.10.16 = {
+capital = 742
+	set_politics = {
+		parties = {
+			liberal = {
+				popularity = 6.99
+			}
+			democratic = {
+				popularity = 7.29
+			}
+			socialist = {
+				popularity = 0
+			}
+			Social_Democratic = {
+				popularity = 41.96
+			}
+			Christian_Democratic = {
+				popularity = 43.75
+			}
+		}
+		
+		ruling_party = Christian_Democratic
+		last_election = "1990.12.2"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Antje Vollmer"
+		picture = "Portrait_WestGermany_Antje_Vollmer.dds"
+		ideology = green
+	}
+
+	create_country_leader = {
+		name = "Klaus Kinkel"
+		picture = "Portrait_WestGermany_Klaus_Kinkel.dds"
+		ideology = left_libertarianism
+	}
+}

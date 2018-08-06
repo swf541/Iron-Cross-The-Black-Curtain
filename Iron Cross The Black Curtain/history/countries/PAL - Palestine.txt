@@ -1,0 +1,246 @@
+﻿capital = 801
+
+oob = "PAL_1949"
+
+set_research_slots = 2
+
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	
+	## Support ##
+	tech_support = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+}
+
+set_convoys = 1
+
+add_ideas = {
+	population_growth_explosion
+}
+
+set_cosmetic_tag = MAN_PAL
+
+set_politics = {
+
+	parties = {
+		democratic = { popularity = 0 }
+		communism = { popularity = 0 }
+		fascism = { popularity = 0 }
+		nationalism = { popularity = 0 }
+		monarchism = { popularity = 0 }
+		neutrality = { popularity = 100 }
+		islamism = { popularity = 0 }
+		pan_arabism = { popularity = 0 }
+		radical_shiaism = { popularity = 0 }
+		Social_Democratic = { popularity = 0 }
+		Social_Liberalism = { popularity = 0 }
+		Salafism = { popularity = 0 }
+		Christianism = { popularity = 0 }
+		Liberal_Conservatism = { popularity = 0 }
+		Judaism = { popularity = 0 }
+		conservative = { popularity = 0 }
+		Christian_Democratic = { popularity = 0 }
+		socialist = { popularity = 0 }
+		centrist = { popularity = 0 }
+		liberal = { popularity = 0 }
+		trotskyism = { popularity = 0 }
+		maoism = { popularity = 0 }
+		National_Socialism = { popularity = 0 }
+	}
+	
+	ruling_party = neutrality
+	last_election = "1945.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alan Cunningham"
+	picture = "Alan_Cunningham.dds"
+	ideology = colonial_regime
+}
+
+create_country_leader = {
+	name = "Ahmed Hilmi Pasha"
+	picture = "Ahmed_Hilmi_Pasha.dds"
+	ideology = despotism
+}
+
+create_country_leader = {
+	name = "Ahmed Yassin"
+	picture = "Ahmed_Yassin.dds"
+	ideology = sunni_islamism
+}
+
+create_country_leader = {
+	name = "Amin al-Husseini"
+	picture = "Amin_al_Husseini.dds"
+	ideology = nationalist_ideology
+}
+
+create_country_leader = {
+	name = "Yasser Arafat"
+	picture = "Yasser_Arafat.dds"
+	ideology = social_democrat
+}
+
+create_country_leader = {
+	name = "Moshe Sneh"
+	picture = "Moshe_Sneh.dds"
+	ideology = leninism
+}
+
+create_country_leader = {
+	name = "George Habash"
+	picture = "George_Habash.dds"
+	ideology = pan_arabism_ideology
+}
+
+1949.1.1 = {
+    set_cosmetic_tag = PAL_EGY
+	set_politics = {
+
+		parties = {
+			democratic = { popularity = 0 }
+			communism = { popularity = 4 }
+			fascism = { popularity = 0 }
+			nationalism = { popularity = 0 }
+			monarchism = { popularity = 0 }
+			neutrality = { popularity = 43 }
+			islamism = { popularity = 18 }
+			radical_shiaism = { popularity = 0 }
+			Social_Democratic = { popularity = 14 }
+			Social_Liberalism = { popularity = 0 }
+			Salafism = { popularity = 0 }
+			Christianism = { popularity = 0 }
+			Liberal_Conservatism = { popularity = 21 }
+			Judaism = { popularity = 0 }
+			conservative = { popularity = 0 }
+			Christian_Democratic = { popularity = 0 }
+			socialist = { popularity = 0 }
+			centrist = { popularity = 0 }
+			liberal = { popularity = 0 }
+			trotskyism = { popularity = 0 }
+			maoism = { popularity = 0 }
+			National_Socialism = { popularity = 0 }
+		}
+		
+		ruling_party = neutrality
+		last_election = "1949.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	add_ideas = {
+		idea_PAL_Mobilizate_League_Arabe
+		incompetent_officer_corps
+	}
+}
+
+1959.1.1 = {
+	drop_cosmetic_tag = yes
+	set_politics = {
+		parties = {
+			democratic = { popularity = 0 }
+			communism = { popularity = 4 }
+			fascism = { popularity = 0 }
+			nationalism = { popularity = 0 }
+			monarchism = { popularity = 0 }
+			neutrality = { popularity = 0 }
+			islamism = { popularity = 21 }
+			radical_shiaism = { popularity = 0 }
+			Social_Democratic = { popularity = 52 }
+			Social_Liberalism = { popularity = 0 }
+			Salafism = { popularity = 0 }
+			Christianism = { popularity = 0 }
+			Liberal_Conservatism = { popularity = 23 }
+			Judaism = { popularity = 0 }
+			conservative = { popularity = 0 }
+			Christian_Democratic = { popularity = 0 }
+			socialist = { popularity = 0 }
+			centrist = { popularity = 0 }
+			liberal = { popularity = 0 }
+			trotskyism = { popularity = 0 }
+			maoism = { popularity = 0 }
+			National_Socialism = { popularity = 0 }
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1959.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+
+
+2004.1.1 = {
+    create_country_leader = {
+	    name = "Khaled Mashal"
+	    picture = "Khaled_Mashal.dds"
+	    ideology = sunni_islamism
+    }
+}
+
+2005.1.1 = {
+    create_country_leader = {
+	    name = "Mahmoud Abbas"
+	    picture = "Mahmoud_Abbas.dds"
+	    ideology = social_democrat
+    }
+}
+
+create_corps_commander = {
+	name = "Fawzi al-Qawuqji"
+	picture = "Qawuqji.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Habes al-Majali"
+	picture = "Majali.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Glubb Pasha"
+	picture = "Pasha.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Amin al-Husseini"
+	picture = "Amin_al-Husseini.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=59
+	name="STATE_59"
+	resources={
+		oil = 6
+		steel = 8
+	}
+
+	history={
+		owner = WGR
+		victory_points = {
+			6377 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			coal_plant = 1
+
+		}
+		add_core_of = WGR
+		add_core_of = DDR
+
+	}
+
+	provinces={
+		374 526 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9375 11402 11493 
+	}
+	manpower=2438286
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

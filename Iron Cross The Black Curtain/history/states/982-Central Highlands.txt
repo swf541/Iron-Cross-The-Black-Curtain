@@ -1,0 +1,28 @@
+
+state={
+	id=982
+	name="STATE_982"
+
+	history={
+		owner = VIE
+		buildings = {
+			infrastructure = 3
+                        industrial_complex = 3
+                        arms_factory = 2
+		}
+		add_core_of = VIE
+		add_core_of = VIN
+		1974.1.1 = {
+			owner = VIN
+
+		}
+
+	}
+
+	provinces={
+		1248 1400 1605 4363 7271 12176 
+	}
+	manpower=1833300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

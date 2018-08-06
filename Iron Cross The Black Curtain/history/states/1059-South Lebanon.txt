@@ -1,0 +1,32 @@
+
+state={
+	id=1059
+	name="STATE_1059"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = LEB
+		victory_points = {
+			11919 2 
+		}
+		buildings = {
+			infrastructure =3
+			11919 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = LEB
+
+	}
+
+	provinces={
+		11919 13265 
+	}
+	manpower=354000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,35 @@
+state={
+	id=202
+	name="STATE_202"
+	manpower = 2495352
+	resources={
+		oil=14
+		aluminium=12
+		steel = 47
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = UKR
+		victory_points = {
+			525 25
+		}
+		buildings = {
+			infrastructure =6
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 6
+			coal_plant = 2
+		}
+		add_core_of = UKR
+		add_core_of = SOV
+	1991.1.1 = {
+		remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		489 504 525 582 3494 3543 6497 9465 9543 9568 11557 
+	}
+}

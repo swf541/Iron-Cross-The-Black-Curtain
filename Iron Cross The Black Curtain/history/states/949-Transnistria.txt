@@ -1,0 +1,27 @@
+state={
+	id=949
+	name="STATE_949"
+	history={
+		owner = MLD
+        victory_points = {
+			13226 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			coal_plant = 2
+		}
+		add_core_of = MLD
+        1992.1.1 = {
+		    owner = PMR
+		    add_core_of = PMR
+		}
+	}
+	provinces={
+		13226 13227 13228 
+	}
+	manpower=475665
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

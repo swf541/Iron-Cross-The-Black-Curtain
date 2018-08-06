@@ -1,0 +1,30 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		1246 1313 1342 4276 4320 4361 12165 12209 
+	}
+	resources={
+		rubber=43
+		oil=5
+		steel =4
+	}
+	history=
+	{
+		owner = INO
+		add_core_of = INO
+		add_core_of = INS
+		add_core_of = DAR	
+
+		buildings = {
+			infrastructure = 2
+		}
+		1950.1.1 = {
+		remove_core_of = INS
+		remove_core_of = DAR
+		}
+	}
+	manpower=2360457
+	buildings_max_level_factor=1.000
+	state_category=town
+}

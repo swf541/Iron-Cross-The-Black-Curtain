@@ -1,0 +1,38 @@
+state={
+	id=227
+	name="STATE_227"
+	manpower = 3767336
+	state_category = city
+	resources = {
+		steel = 23
+	}
+	history={
+		owner = UKR
+		1961.11.10 ={
+		    set_state_name = "Donetsk"
+			set_province_name = { id = 6474 name = "Donetsk" }
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			coal_plant = 2
+		}
+		victory_points = {
+			6474 10
+		}
+		victory_points = {
+			6420 5
+		}
+		add_core_of = UKR
+		add_core_of = SOV
+	1991.1.1 = {
+		remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		502 3421 3449 3466 3479 3491 6420 6474 6493 6776 
+	}
+}

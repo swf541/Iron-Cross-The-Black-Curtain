@@ -1,0 +1,94 @@
+﻿capital = 1164
+
+oob = "BHR_1949"
+
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	
+	## Support ##
+
+	## Artillery  ##
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+}
+
+set_convoys = 0
+
+set_cosmetic_tag = BHR_ENG
+
+add_ideas = {
+	population_growth_explosion
+    extensive_conscription
+}
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 2 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 92 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 6 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = monarchism
+	last_election = "1945.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+  create_country_leader = {
+	name = "Salman bin Hamad Al Khalifa"
+	picture = "Salman_bin_Hamad_Al_Khalifa.dds"
+	ideology = absolute_monarchist
+     }
+
+1961.11.2 = {
+  create_country_leader = {
+	name = "Isa bin Salman Al Khalifa"
+	picture = "Isa_bin_Salman_Al_Khalifa.dds"
+	ideology = absolute_monarchist
+     }
+  }
+
+1971.8.15 = {
+	drop_cosmetic_tag = yes
+}
+
+1999.3.6 = {
+  create_country_leader = {
+	name = "Hamad bin Isa Al Khalifa"
+	picture = "Hamad_bin_Isa_Al_Khalifa.dds"
+	ideology = absolute_monarchist
+     }
+  }

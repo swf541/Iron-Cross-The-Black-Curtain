@@ -1,0 +1,35 @@
+
+state={
+	id=543
+	name="STATE_543" #North Madagascar
+	manpower = 2194611
+	state_category = city
+	resources = {
+		chromium =14
+	}
+	history={
+		owner = MAD
+		add_core_of = MAD
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			industrial_complex = 2
+			coal_plant = 1
+			arms_factory = 1
+			5222 = {
+				naval_base = 1
+			}
+		}
+	victory_points = {
+		5128 5
+		}
+	victory_points = {
+		5222 1
+		}
+	}
+
+	provinces={
+		 5128 5185 5222  8188     
+
+	}
+}

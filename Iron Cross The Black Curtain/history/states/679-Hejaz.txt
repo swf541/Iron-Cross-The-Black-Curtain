@@ -1,0 +1,30 @@
+
+state={
+	id=679
+	name="STATE_679"
+	resources={
+		steel=27.000
+	}
+
+	history={
+		owner = SAU
+		victory_points = {
+			12758 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			coal_plant = 1
+
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		2033 2095 4981 7934 8092 10748 10835 12758 
+	}
+	manpower=1777933
+	buildings_max_level_factor=1.000
+	state_category=town
+}

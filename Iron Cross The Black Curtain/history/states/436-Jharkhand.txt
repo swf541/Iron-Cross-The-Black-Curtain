@@ -1,0 +1,28 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		chromium=14.000
+		steel=9.000
+	}
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			coal_plant = 2
+
+		}
+
+	}
+
+	provinces={
+		1510 1579 1622 4513 4557 7497 7574 9946 10171 10401 12375 12420 12480 12490 
+	}
+	manpower=14123100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

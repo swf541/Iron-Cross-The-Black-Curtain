@@ -1,0 +1,37 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		rubber=8.000
+	}
+
+	history={
+		owner = MYR
+		victory_points = {
+			1330 5 
+		}
+		add_core_of = MYR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 4
+			dockyard = 1
+			arms_factory = 3
+			coal_plant = 1
+			1330 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1330 1417 1650 4202 4293 4336 4626 4654 7034 7441 10154 10267 10283 10344 12127 12197 12256 12267 12317 12449 
+	}
+	manpower=10722500
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

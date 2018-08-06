@@ -1,0 +1,162 @@
+﻿capital = 206 
+
+set_research_slots = 3
+
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	
+	## Support ##
+	tech_support = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+}
+
+
+add_ideas = {
+	population_growth_aliyah_soviet
+}
+
+set_convoys = 0
+
+set_cosmetic_tag = BLR_SSR
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 100 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 0 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+	}
+	ruling_party = communism
+	last_election = "1945.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Panteleimon Ponomarenko"
+	picture = "Panteleimon_Ponomarenko.dds"
+	ideology = stalinism
+}
+
+create_country_leader = {
+	name = "Radaslau Astrouski"
+	picture = "Radaslau_Astrouski.dds"
+	ideology = baathism
+}
+
+1947.1.1 = {
+	create_country_leader = {
+		name = "Nikolai Gusarov"
+		picture = "Nikolai_Gusarov.dds"
+		ideology = stalinism
+	}
+}
+
+
+1956.1.1 = {
+	create_country_leader = {
+		name = "Kirill Mazurov"
+		picture = "Kirill_Mazurov.dds"
+		ideology = marxism
+	}
+}
+
+
+1965.1.1 = {
+	create_country_leader = {
+		name = "Petr Masherov"
+		picture = "Petr_Masherov.dds"
+		ideology = marxism
+	}
+}
+
+1987.2.6 = {
+	create_country_leader = {
+		name = "Yefrem Sokolov"
+		picture = "Yefrem_Sokolov.dds"
+		ideology = marxism
+	}
+}
+
+1991.8.25 = {
+	drop_cosmetic_tag = yes
+}
+1994.1.1 = {
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 22 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 62 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 16 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+	}
+	ruling_party = neutrality
+	last_election = "1945.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+create_country_leader = {
+	name = "Alexander Lukashenko"
+	picture = "Alexander_Lukashenko.dds"
+	ideology = Independent
+ }
+create_country_leader = {
+	name = "Tatsyana Holubeva"
+	picture = "Tatsyana_Holubeva.dds"
+	ideology = marxism
+ }
+}

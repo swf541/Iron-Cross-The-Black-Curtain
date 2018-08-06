@@ -1,0 +1,22 @@
+state = {
+	id=736
+	name="STATE_736"
+	manpower=183344
+	
+	state_category = city
+
+	history={
+		owner = YUG
+        1991.6.25 = {
+			owner = SLV
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = YUG
+		add_core_of = SLV
+	}
+
+	provinces = { 11595 599 }
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=456
+	name="STATE_456"
+	resources={
+		oil=18.000
+		steel=1.000
+	}
+
+	history={
+		owner = EGY
+		victory_points = {
+			12071 1 
+		}
+		victory_points = {
+			11999 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			coal_plant = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		1028 1064 1151 1206 7030 7073 7144 10028 10844 11974 11999 12044 12071 12771 
+	}
+	manpower=5224516
+	buildings_max_level_factor=1.000
+	state_category=city
+}

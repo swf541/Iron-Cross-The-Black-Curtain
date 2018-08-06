@@ -1,0 +1,122 @@
+﻿##Add GERALD THE KUWAITI MORMON TRANSGENDER PRINCESS as easter egg Admins and swf know what this refers to
+capital = 656
+
+oob = "KUW_1949"
+
+# Starting tech
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	
+	## Support ##
+	tech_support = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+}
+
+
+add_ideas = {
+	population_growth_explosion
+    extensive_conscription
+}
+
+set_convoys = 8
+
+set_cosmetic_tag = KUW_ENG
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 3 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 67 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 16 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 14 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+	}
+	
+	ruling_party = monarchism
+	last_election = "1949.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Ahmad I"
+	picture = "Ahmad_I.dds"
+	expire = "1950.1.29"
+	ideology = religious_monarchy
+}
+1950.1.29 = {
+create_country_leader = {
+	name = "Abdullah III"
+	picture = "Abdullah_III.dds"
+	expire = "1965.11.24"
+	ideology = religious_monarchy
+   }
+}
+1965.11.24 = {
+create_country_leader = {
+	name = "Sabah III"
+	picture = "Sabah_III.dds"
+	expire = "1977.12.31"
+	ideology = religious_monarchy
+   }
+}
+1971.1.1 = {
+	drop_cosmetic_tag = yes
+}
+1977.12.31 = {
+create_country_leader = {
+	name = "Jaber III"
+	picture = "Jaber_III.dds"
+	expire = "2006.1.15"
+	ideology = religious_monarchy
+   }
+}
+2006.1.15 = {
+create_country_leader = {
+	name = "Saad I"
+	picture = "Saad_I.dds"
+	expire = "2008.5.13"
+	ideology = religious_monarchy
+   }
+}
+2006.1.29 = {
+create_country_leader = {
+	name = "Sabah IV"
+	picture = "Sabah_IV.dds"
+	ideology = religious_monarchy
+   }
+}

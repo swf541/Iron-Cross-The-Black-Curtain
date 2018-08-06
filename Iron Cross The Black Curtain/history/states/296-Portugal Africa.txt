@@ -1,0 +1,30 @@
+
+state={
+	id=296
+	name="STATE_296" # Guinea-Bissau
+	manpower = 535428
+	state_category =rural
+
+	history={
+		#owner = GBI #debug
+		owner = POR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            coal_plant = 1
+			12891 ={
+				naval_base = 3
+			}
+		}
+		add_core_of = POR
+		#add_core_of = GBI
+		
+		victory_points = {
+			12891 5 #Bissau
+		}
+	}
+	
+	provinces={
+		12747 12891 
+	}
+}

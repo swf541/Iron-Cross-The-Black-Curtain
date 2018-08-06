@@ -1,0 +1,42 @@
+
+state={
+	id=699
+	name="STATE_699"
+
+	history={
+		owner = SRW
+		victory_points = {
+			8111 5
+		}
+		victory_points = {
+			10875 1 
+		}
+		buildings = {
+			infrastructure = 1
+	               	industrial_complex = 1
+                        coal_plant = 1
+			10875 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = MOR
+                add_core_of = SRW
+		1958.1.1 = {
+		        owner = SPR
+  	           	add_core_of = SPR
+		}
+		1975.1.1 = {
+			owner = MOR
+			remove_core_of = SPR
+		}
+
+	}
+
+	provinces={
+		4920 5012 8038 8111 10875 
+	}
+	manpower=538755
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,29 @@
+state={
+	id=542
+	name="STATE_542"
+	manpower = 412532
+	state_category =town
+	
+	resources={
+		chromium=64
+                steel=22
+	}
+
+	history={
+		owner = BOT
+		add_core_of = BOT
+		victory_points = {
+			8214 5
+		}
+		buildings = {
+		infrastructure = 3
+		industrial_complex = 1
+            coal_plant = 1
+		}
+
+	}
+
+	provinces={
+		1580 8214 10525 12940 12963 
+	}
+}

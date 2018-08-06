@@ -1,0 +1,179 @@
+﻿capital = 272
+
+oob = "SEN_1949"
+
+# Starting tech
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	
+	## Support ##
+	tech_support = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+}
+
+add_ideas = {
+	population_growth_explosion
+}
+
+set_convoys = 14
+
+set_cosmetic_tag = FRA_WST_AFR
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 0 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 100 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 0 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = neutrality
+	last_election = "1945.1.1"
+	election_frequency = 48
+	elections_allowed = no  
+}
+
+   create_country_leader = {
+	name = "Pierre Charles Cournarie"
+	picture = "Pierre_Charles_Cournarie.dds"
+	ideology = colonial_regime
+   }
+
+
+1949.1.1 = {
+   create_country_leader = {
+	name = "Paul Léon Albin Béchard"
+	picture = "Paul_Leon_Albin_Bechard.dds"
+	expire = "1958.1.1"
+	ideology = colonial_regime
+   }
+}
+1960.1.1 = {
+drop_cosmetic_tag = yes	
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 6 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 66 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 28 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 0 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = nationalism
+	last_election = "1960.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+   create_country_leader = {
+	name = "Léopold Sédar Senghor"
+	picture = "Leopold_Sedar_Senghor.dds"
+	ideology = african_nationalism
+   }
+}
+1976.1.1 = {
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 0 }
+        communism = { popularity = 6 }
+        fascism = { popularity = 0 }
+        nationalism = { popularity = 0 }
+        monarchism = { popularity = 0 }
+        neutrality = { popularity = 0 }
+        islamism = { popularity = 0 }
+        radical_shiaism = { popularity = 0 }
+        pan_arabism = {popularity = 0}
+        Social_Democratic = { popularity = 0 }
+        Social_Liberalism = { popularity = 0 }
+        Salafism = { popularity = 0 }
+        Christianism = { popularity = 0 }
+        Liberal_Conservatism = { popularity = 28 }
+        Judaism = { popularity = 0 }
+        conservative = { popularity = 0 }
+        Christian_Democratic = { popularity = 0 }
+        socialist = { popularity = 66 }
+        centrist = { popularity = 0 }
+        liberal = { popularity = 0 }
+        trotskyism = { popularity = 0 }
+        maoism = { popularity = 0 }
+        National_Socialism = { popularity = 0 }
+
+	}
+	
+	ruling_party = socialist
+	last_election = "1960.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Léopold Sédar Senghor"
+	picture = "Leopold_Sedar_Senghor.dds"
+	ideology = socialism
+   }
+}
+1981.1.1 = {
+   create_country_leader = {
+    name = "Abdou Diouf"
+    picture = "Abdou_Diouf.dds"
+    ideology = socialism
+   }
+}

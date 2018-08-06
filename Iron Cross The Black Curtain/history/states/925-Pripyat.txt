@@ -1,0 +1,38 @@
+state={
+	id=925
+	name="STATE_925"
+	history={
+		owner = UKR
+		victory_points = { 13225 1 }
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = UKR
+		add_core_of = SOV
+        1972.8.15 = {
+			buildings = {
+				nuclear_power_reactor = 4
+			}
+		}
+		1986.4.25 = {
+			remove_building = { type = nuclear_power_reactor level = 1 }
+			remove_building = { type = infrastructure level = 10 }
+			add_manpower = -49359
+			set_state_name = "Chernobyl Exclusion Zone"  
+            set_demilitarized_zone = yes	
+            set_state_category = wasteland			
+		}
+		1991.10.1 = {
+			remove_building = { type = nuclear_power_reactor level = 3 }
+		}
+	    1991.1.1 = {
+		remove_core_of = SOV
+		}
+	}
+	provinces={
+		13225 
+	}
+	manpower=49360
+	buildings_max_level_factor=1.000
+	state_category=town
+}

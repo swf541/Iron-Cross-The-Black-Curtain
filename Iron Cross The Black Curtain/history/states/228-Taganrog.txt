@@ -1,0 +1,41 @@
+state={
+	id=228
+	name="STATE_228" # Voroshilovgrad
+	manpower = 2167411
+	state_category = city
+	resources = {
+		steel = 14
+	}
+	history={
+		owner = UKR
+		1958.3.5 ={
+		    set_state_name = "Luhansk"
+			set_province_name = { id = 9461 name = "Luhansk" }
+		}
+		1970.1.5 ={
+		    set_state_name = "Voroshilovgrad"
+			set_province_name = { id = 9461 name = "Voroshilovgrad" }
+		}
+		1990.5.4 ={
+		    set_state_name = "Luhansk"
+			set_province_name = { id = 9461 name = "Luhansk" }
+		}
+	        1991.1.1 = {
+		remove_core_of = SOV
+		}
+		victory_points = {
+			9461 1
+		}
+		buildings = {
+			infrastructure =2
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = UKR
+		add_core_of = SOV
+	}
+
+	provinces={
+		523 547 570 6505 6519 9446 9461 9476 11487 11513 
+	}
+}

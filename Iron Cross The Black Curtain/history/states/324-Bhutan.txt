@@ -1,0 +1,35 @@
+
+state={
+	id=324
+	name="STATE_324" #Western Bhutan
+	manpower = 90000
+	
+	
+	state_category = town
+	
+	resources={
+
+		tungsten=10
+
+	}
+
+	history={
+		owner = BHU
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			coal_plant = 1
+		}
+		victory_points = {
+			8010 5 
+		}
+		victory_points = {
+			13271 1 
+		}
+		add_core_of = BHU
+	}
+
+	provinces={
+		8010 13269 13270 13271 13272 
+	}
+}

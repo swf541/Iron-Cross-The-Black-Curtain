@@ -1,0 +1,35 @@
+
+state={
+	id=515
+	name="STATE_515"
+
+	history={
+		owner = ROC
+		add_core_of = CAR
+		add_core_of = ROC
+		victory_points = {
+			12830 5 
+		}
+		victory_points = {
+			11012 2 
+		}
+		buildings = {
+			infrastructure = 1
+			coal_plant = 1
+			industrial_complex = 1
+
+		}
+		1960.1.1 = {
+			owner = CAR
+			remove_core_of = ROC
+		}
+
+	}
+
+	provinces={
+		8078 11012 12830 
+	}
+	manpower=1082744
+	buildings_max_level_factor=1.000
+	state_category=city
+}

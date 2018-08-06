@@ -1,0 +1,23 @@
+
+state={
+	id=29
+	name="STATE_29"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			coal_plant = 1
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		454 3402 3447 6585 9561 11420 11549 
+	}
+	manpower=1890000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

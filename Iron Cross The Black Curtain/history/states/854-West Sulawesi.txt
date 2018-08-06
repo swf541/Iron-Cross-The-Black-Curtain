@@ -1,0 +1,27 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		4308 7598 
+	}
+	resources={
+		rubber=7
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		add_core_of = INO
+		add_core_of = DAR
+		1950.1.1 = {
+		owner = INO
+		remove_core_of = INS
+		remove_core_of = DAR
+		}
+		buildings = {
+			infrastructure = 2
+}
+		}
+	manpower=695191
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

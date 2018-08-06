@@ -1,0 +1,30 @@
+
+state={
+	id=629
+	name="STATE_629"
+	manpower =498000
+	state_category = town
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			dockyard = 2
+                        coal_plant = 2
+			air_base = 6
+			radar_station = 1
+			4180 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = USA
+		add_core_of = HWI
+		victory_points = {
+			4180 15
+		 }
+	}
+
+	provinces={
+		4180 7112 7195 10048 12021 
+	}
+}

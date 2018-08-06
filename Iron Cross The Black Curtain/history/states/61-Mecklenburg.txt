@@ -1,0 +1,52 @@
+
+state={
+	id=61
+	name="STATE_61"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = DDR
+		1990.10.3 = {
+			owner = WGR
+
+		}
+		victory_points = {
+			321 1 
+		}
+		victory_points = {
+			9294 11 
+		}
+		victory_points = {
+			11305 5 
+		}
+		victory_points = {
+			11276 5 
+		}
+		victory_points = {
+			3258 10 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			coal_plant = 1
+			321 = {
+				naval_base = 6
+
+			}
+			air_base = 4
+
+		}
+		add_core_of = DDR
+		add_core_of = WGR
+
+	}
+
+	provinces={
+		268 293 321 3258 9294 11276 11305 
+	}
+	manpower=836353
+	buildings_max_level_factor=1.000
+	state_category=town
+}

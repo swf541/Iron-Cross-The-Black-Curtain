@@ -1,0 +1,673 @@
+﻿capital = 141	
+
+oob = "SWE_1949"
+
+set_research_slots = 3
+
+add_ideas = {
+	en_svensk_tiger
+	neutrality_idea
+	population_growth_steady
+}
+
+set_technology = {
+	CAS1 = 1
+	CAS2 = 1
+	CAS3 = 1
+	CAS4 = 1
+	advanced_destroyer = 1
+	advanced_rocket_engines = 1
+	amphibious1 = 1
+	antiair1 = 1
+	basic_carrier = 1
+	basic_destroyer = 1
+	basic_light_cruiser = 1
+	ww_production = 1
+	basic_submarine = 1
+	battle_cruiser_1 = 1
+	battleship_2 = 1
+	battleship_3 = 1
+	ww_construction = 1
+	cv_CAS1 = 1
+	cv_CAS2 = 1
+	cv_CAS3 = 1
+	cv_CAS4 = 1
+	cv_early_fighter = 1
+	cv_fighter1 = 1
+	cv_fighter2 = 1
+	cv_fighter3 = 1
+	cv_jet_multirole1 = 1
+	cv_jet_CAS1 = 1
+	cv_naval_bomber1 = 1
+	cv_naval_bomber2 = 1
+	cv_naval_bomber3 = 1
+	cv_naval_bomber4 = 1
+	early_battleship = 1
+	early_bomber = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_fighter = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	ww_pc = 1 
+	radio = 1 
+
+	fighter1 = 1
+	fighter2 = 1
+	fighter3 = 1
+	frigate_1 = 1
+	frigate_2 = 1
+	infantry_equip_1 = 1 
+	iw_armored_vehicles = 1
+	gw_artillery = 1
+	selfpropart1 = 1
+	sp_aa1 = 1
+	interwar_antitank = 1
+	heavy_fighter1 = 1
+	heavy_fighter2 = 1
+	heavy_fighter3 = 1
+	team_weapons_1 = 1
+	team_weapons_2 = 1
+	heavy_tanks_1 = 1
+	heavy_tanks_2 = 1
+	improved_destroyer = 1
+	improved_light_cruiser = 1
+	
+	interwar_antiair = 1
+	infantry_equip_2 = 1
+	jet_CAS1 = 1
+	jet_engines = 1
+	jet_multirole1 = 1
+	jet_multirole2 = 1
+	jet_interceptor1 = 1
+	jet_interceptor2 = 1
+	jet_strategic_bomber1 = 1
+	jet_tactical_bomber1 = 1
+	landing_craft = 1
+	light_carrier1 = 1
+	light_carrier2 = 1
+	light_tanks_1 = 1
+	main_battle_tanks_1 = 1
+	main_battle_tanks_2 = 1
+	mechanized_heavy_infantry = 1
+	mechanized_infantry = 1
+	mechanized_infantry2 = 1
+	motorised_infantry = 1
+	naval_bomber1 = 1
+	naval_bomber2 = 1
+	naval_bomber3 = 1
+	naval_bomber4 = 1
+		
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
+	
+	rocket_engines = 1
+	sp_rocket1 = 1
+	sp_rocket2 = 1
+	strategic_bomber1 = 1
+	strategic_bomber2 = 1
+	strategic_bomber3 = 1
+	suicide_craft = 1
+	ww_oil = 1
+	tactical_bomber1 = 1
+	tactical_bomber2 = 1
+	tactical_bomber3 = 1
+	tank_landing_craft = 1
+	transport = 1
+}
+
+set_politics = {
+
+	parties = {
+		Social_Liberalism = { 
+			popularity = 12.9
+		}
+		Social_Democratic = {
+			popularity = 46.6
+		}
+		Liberal_Conservatism = {
+			popularity = 15.8
+		}
+		centrist = {
+			popularity = 13.6
+		}
+		socialist = {
+			popularity = 11.1
+		}
+		
+	}
+	
+	ruling_party = Social_Democratic
+	last_election = "1944.9.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 200
+set_stability = 0.8
+
+create_country_leader = {
+	name = "Per Albin Hansson"
+	picture = "Per_Albin_Hansson.dds"
+	ideology = social_democrat
+}
+
+create_country_leader = {
+	name = "Axel Pehrsson-Bramstorp"
+	picture = "Axel_Pehrsson_Bramstorp.dds"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Gustaf V"
+	picture = "Gustaf_V.dds"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Bertil Ohlin"
+	picture = "Bertil_Ohlin.dds"
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Birger Ekstedt"
+	picture = "Birger_Ekstedt.dds"
+	ideology = christian_democracy
+}
+
+create_country_leader = {
+	name = "Fritiof Domö"
+	picture = "Fritiof_Domo.dds"
+	ideology = Liberal_Conservatism
+}
+
+create_country_leader = {
+	name = "Sven Olov Lindholm"
+	picture = "Sven_Olov_Lindholm.dds"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Hilding Hagberg"
+	picture = "Hilding_Hagberg.dds"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+	name = "Per Engdahl"
+	picture = "Gustaf_VI.dds"
+	ideology = national_democrat
+}
+
+create_country_leader = {
+	name = "Per Gahrton"
+	picture = "Per_Gahrton.dds"
+	ideology = green
+}
+
+create_corps_commander = {
+	name = "Folke Högberg"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { commando }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+
+}
+
+create_navy_leader = {
+	name = "Claes Lindström"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { blockade_runner }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Draken Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+
+1946.1.1 = {
+    create_country_leader = {
+	     name = "Tage Erlander"
+	     picture = "Tage_Erlander.dds"
+	     ideology = social_democrat
+    }
+}   
+
+1948.9.19 = {
+	set_politics = {
+
+		parties = {
+			Social_Liberalism = { 
+				popularity = 22.7
+			}
+			Social_Democratic = {
+				popularity = 46.1
+			}
+			Liberal_Conservatism = {
+				popularity = 12.5
+			}
+			socialist = {
+				popularity = 6.3
+			}
+			centrist = {
+				popularity = 12.4
+			}
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1948.9.19"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+
+1949.1.1 = {
+    create_country_leader = {
+	    name = "Gunnar Hedlund"
+	    picture = "Gunnar_Hedlund.dds"
+	    ideology = centrism
+    }
+}
+
+1950.1.1 = {
+	create_country_leader = {
+	    name = "Jarl Hjalmarson"
+	    picture = "Jarl_Hjalmarson.dds"
+	    ideology = Liberal_Conservatism
+    }
+	create_country_leader = {
+	    name = "Gustaf VI Adolf"
+	    picture = "Gustaf_VI_Adolf.dds"
+	    ideology = absolute_monarchist
+    }
+}
+
+1957.1.1 = {
+	set_party_name = {
+		ideology = centrist
+		long_name = "Centerpartiet"
+		name = "C"
+	}
+}
+
+1958.6.1 = {
+	set_politics = {
+
+		parties = {
+			Liberal_Conservatism = { 
+				popularity = 19.5
+			}
+			Social_Democratic = {
+				popularity = 46.2
+			}
+			Social_Liberalism = {
+				popularity = 18.2
+			}
+			centrist = {
+				popularity = 12.7
+			}
+			socialist = {
+				popularity = 3.4
+			}
+			
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1958.6.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+}
+
+1964.1.1 = {
+    create_country_leader = {
+	    name = "Carl-Henrik Hermansson"
+	    picture = "Carl_Henrik_Hermansson.dds"
+	    ideology = democratic_socialist
+    }
+}
+
+1969.1.1 = {
+	create_country_leader = {
+	    name = "Olof Palme"
+	    picture = "Olof_Palme.dds"
+	    ideology = social_democrat
+    }
+}
+
+1970.9.20 = {
+    set_politics = {
+
+		parties = {
+			Liberal_Conservatism = { 
+				popularity = 12.8
+			}
+			Social_Democratic = {
+				popularity = 46.3
+			}
+			Social_Liberalism = {
+				popularity = 16.2
+			}
+			centrist = {
+				popularity = 20.9
+			}
+			socialist = {
+				popularity = 4.8
+			}
+			
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1970.9.10"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	create_country_leader = {
+	    name = "Gösta Bohman"
+	    picture = "Gosta_Bohman.dds"
+	    ideology = Liberal_Conservatism
+    }
+}
+
+1971.1.1 = {
+	create_country_leader = {
+		name = "Thorbjörn Fälldin"
+		picture = "Thorbjorn_Falldin.dds"
+		ideology = centrism
+	}
+}
+
+1973.9.16 = {
+	set_party_name = {
+		ideology = Liberal_Conservatism
+		long_name = "Moderata samlingspartiet"
+		name = "M"
+	}
+	create_country_leader = {
+	    name = "Carl XVI Gustaf"
+	    picture = "Carl_XVI_Gustaf.dds"
+	    ideology = absolute_monarchist
+    }
+	create_country_leader = {
+		name = "Alf Svensson"
+		picture = "Alf_Svensson.dds"
+		ideology = christian_democracy
+	}
+}
+
+1975.1.1 = {
+    create_country_leader = {
+	    name = "Lars Werner"
+	    picture = "Lars_Werner.dds"
+	    ideology = democratic_socialist
+    }
+}
+
+1976.9.19 = {
+	set_party_name = {
+		ideology = Liberal_Conservatism
+		long_name = "Moderata samlingspartiet"
+		name = "M"
+	}
+}
+
+1986.1.1 = {
+	create_country_leader = {
+	    name = "Ingvar Carlsson"
+	    picture = "Ingvar_Carlsson.dds"
+	    ideology = social_democrat
+    }
+	create_country_leader = {
+	    name = "Carl Bildt"
+	    picture = "Carl_Bildt.dds"
+	    ideology = Liberal_Conservatism
+    }
+}
+
+1987.1.1 = {
+	set_party_name = {
+		ideology = Christian_Democratic
+		long_name = "Kristdemokratiska Samhällspartiet"
+		name = "KDS"
+	}
+	create_country_leader = {
+		name = "Olof Johansson"
+		picture = "Olof_Johansson.dds"
+		ideology = centrism
+	}
+}
+
+1988.9.18 = {
+	set_politics = {
+
+		parties = {
+			Social_Democratic = { 
+				popularity = 43.2
+			}
+
+			Liberal_Conservatism = { 
+				popularity = 18.3
+			}
+			
+			Social_Liberalism = {
+				popularity = 12.2
+			}
+			
+			socialist = {
+				popularity = 5.8
+			}
+
+			centrist = {
+				popularity = 11.3
+			}
+			
+			democratic = {
+				popularity = 5.5
+			}
+			
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1988.9.18"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+}
+
+1990.1.1 = {
+	set_party_name = {
+		ideology = socialist
+		long_name = "Vänsterpartiet"
+		name = "V"
+	}
+}
+
+1993.1.1 = {
+    create_country_leader = {
+	    name = "Gudrun Schyman"
+	    picture = "Gudrun_Schyman.dds"
+	    ideology = democratic_socialist
+    }
+}
+
+1996.1.1 = {
+	set_party_name = {
+		ideology = Christian_Democratic
+		long_name = "Kristdemokraterna"
+		name = "KD"
+	}
+	create_country_leader = {
+		name = "Göran Persson"
+		picture = "Goran_Persson.dds"
+		ideology = social_democrat
+	}
+}
+
+1997.1.1 = {
+	create_country_leader = {
+		name = "Lars Leijonborg"
+		picture = "Lars_Leijonborg.dds"
+		ideology = social_liberal
+	}
+}
+
+1998.9.20 = {
+	set_politics = {
+
+		parties = {
+			Social_Democratic = { 
+				popularity = 37.4
+			}
+
+			Liberal_Conservatism = { 
+				popularity = 23.9
+			}
+			
+			Social_Liberalism = {
+				popularity = 4.7
+			}
+			
+			socialist = {
+				popularity = 12.6
+			}
+
+			centrist = {
+				popularity = 5.1
+			}
+			
+			Christian_Democratic = {
+				popularity = 11.8
+			}
+			
+			democratic = {
+				popularity = 4.5
+			}
+			
+		}
+		
+		ruling_party = Social_Democratic
+		last_election = "1998.9.20"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Lennart Daléus"
+		picture = "Lennart_Daleus.dds"
+		ideology = centrism
+	}
+}
+
+1999.1.1 = {
+	create_country_leader = {
+		name = "Bo Lundgren"
+		picture = "Bo_Lundgren.dds"
+		ideology = Liberal_Conservatism
+	}
+}
+
+2001.1.1 = {
+	create_country_leader = {
+		name = "Maud Olofsson"
+		picture = "Maud_Olofsson.dds"
+		ideology = centrism
+	}
+}
+
+2003.1.1 = {
+	create_country_leader = {
+		name = "Fredrik Reinfeldt"
+		picture = "Fredrik_Reinfeldt.dds"
+		ideology = Liberal_Conservatism
+	}
+}
+
+2004.1.1 = {
+	create_country_leader = {
+		name = "Göran Hägglund"
+		picture = "Göran_Hägglund.dds"
+		ideology = christian_democracy
+	}
+    create_country_leader = {
+	    name = "Lars Ohly"
+	    picture = "Lars_Ohly.dds"
+	    ideology = democratic_socialist
+    }
+}
+
+2006.9.17 = {
+	set_politics = {
+
+		parties = {
+			Social_Democratic = { 
+				popularity = 35.0
+			}
+
+			Liberal_Conservatism = { 
+				popularity = 28.3
+			}
+			
+			Social_Liberalism = {
+				popularity = 8.5
+			}
+			
+			socialist = {
+				popularity = 5.9
+			}
+
+			centrist = {
+				popularity = 8.9
+			}
+			
+			Christian_Democratic = {
+				popularity = 7.6
+			}
+			
+			democratic = {
+				popularity = 5.2
+			}
+			
+		}
+		
+		ruling_party = Liberal_Conservatism
+		last_election = "2006.9.17"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+}
+
+2007.1.1 = {
+	create_country_leader = {
+		name = "Mona Sahlin"
+		picture = "Mona_Sahlin.dds"
+		ideology = social_democrat
+	}
+	create_country_leader = {
+		name = "Jan Björklund"
+		picture = "Jan_Bjorklund.dds"
+		ideology = social_liberal
+	}
+}

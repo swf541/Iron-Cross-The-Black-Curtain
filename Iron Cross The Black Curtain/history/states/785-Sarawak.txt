@@ -1,0 +1,31 @@
+state={
+	id=785
+	name="STATE_785"
+	resources={
+		rubber=24
+		oil=8
+	}
+	history={
+		owner = NBR
+		add_core_of = NBR
+		add_core_of = MAL
+		1963.1.1 ={
+		set_state_name = "Sabah"
+	        owner = MAL
+		}
+        victory_points = {10212 1}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            coal_plant = 1
+                         10212 = {naval_base = 2}
+		}
+
+	}
+	provinces={
+		1306 1335 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
+	}
+	manpower=331000 
+	buildings_max_level_factor=1.000
+	state_category =town
+}

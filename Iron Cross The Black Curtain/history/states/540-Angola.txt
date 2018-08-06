@@ -1,0 +1,41 @@
+
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		oil=13.000
+	}
+
+	history={
+		owner = POR
+		add_core_of = ANG
+		1975.11.11 = {
+			owner = ANG
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+            coal_plant = 2
+			8248 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			8248 5 
+		}
+		victory_points = {
+			10966 5 
+		}
+
+	}
+
+	provinces={
+		2126 5158 8138 8202 8219 8248 10966 12391 12958 12981 12985 
+	}
+	manpower=4354882
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

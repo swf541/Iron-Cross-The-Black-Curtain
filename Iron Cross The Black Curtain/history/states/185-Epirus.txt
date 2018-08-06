@@ -1,0 +1,43 @@
+
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		chromium=6
+		steel=18
+	}
+
+	history={
+		owner = GRE
+		1946.1.1 = {
+			owner = PDG
+		}
+		victory_points = {
+			841 5 
+		}
+		buildings = {
+			infrastructure =3
+			air_base =4
+			industrial_complex = 2
+			arms_factory = 1
+			coal_plant = 1
+			9805 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = PDG
+		add_core_of = GRE
+		1950.1.1 = {
+			owner = GRE
+		}
+	}
+
+	provinces={
+		841 3914 3980 9805 9837 
+	}
+	manpower=380450s
+	buildings_max_level_factor=1.000
+	state_category=town
+}

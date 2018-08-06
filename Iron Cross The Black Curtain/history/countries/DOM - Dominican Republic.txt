@@ -1,0 +1,79 @@
+﻿capital = 1158
+
+oob = "DOM_1949"
+
+# Starting tech
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1 
+	team_weapons_1 = 1
+	
+	## Support ##
+	tech_support = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1
+	motorised_infantry = 1
+}
+
+
+add_ideas = {
+	population_growth_stagnation
+}
+
+set_country_flag = monroe_doctrine
+
+set_convoys = 20
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 6
+		}
+
+		fascism = {
+			popularity = 91
+		}
+		
+		communism = {
+			popularity = 3
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1934.5.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Rafael Trujillo"
+	picture = "RafaelTrujillo.dds"
+	expire = "1952.8.16"
+	ideology = fascism_ideology
+}
+1952.8.16 = {
+	create_country_leader = {
+		name = "Héctor Trujillo"
+		picture = "Trujillo.dds"
+		expire = "1960.8.3"
+		ideology = fascism_ideology
+	}
+}

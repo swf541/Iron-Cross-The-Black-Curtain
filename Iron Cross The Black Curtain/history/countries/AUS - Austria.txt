@@ -1,0 +1,178 @@
+﻿capital = 152
+
+oob = "AUS_1949"
+
+set_research_slots = 3
+
+set_technology = {
+	## Tech ##
+	radio = 1
+
+	## Industry ##
+	ww_production = 1
+	ww_construction = 1
+
+	## AIR ##
+	
+	## NAVY ##
+	transport = 1
+
+	## Infantry ##
+	infantry_equip_1 = 1
+	team_weapons_1 = 1
+	specialist_1 = 1
+	
+	## Support ##
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+
+	## Artillery  ##
+	gw_artillery = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	
+	## Armor ## 
+	iw_armored_vehicles = 1  # dummy tech
+	motorised_infantry = 1
+}
+
+add_ideas = {
+	population_growth_steady
+}
+
+set_convoys = 0
+
+set_politics = {
+
+	parties = {
+		socialist = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 0
+		}
+
+		centrist = {
+			popularity = 60
+		}
+
+		conservative = {
+			popularity = 20
+		}
+		
+		communism = {
+			popularity = 10
+		}
+	}
+	
+	ruling_party = centrist
+	last_election = "1949.11.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_stability = 0.7
+
+create_country_leader = {
+	name = "Julius Raab"
+	picture = "Julius_Raab.dds"
+	expire = "1964.1.8"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Karl Renner"
+	desc = "POLITICS_KARL_RENNER_DESC"
+	picture = "Karl_Renner.dds"
+	expire = "1950.12.31"
+	ideology = socialism
+}
+
+create_country_leader = {
+	name = "Kurt Schuschnigg"
+	picture = "Kurt_Schuschnigg.dds"
+	expire = "1977.11.18"
+	ideology = Austrofascism
+}
+
+create_country_leader = {
+	name = "Otto I"
+	desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+	picture = "gfx/leaders/HUN/OttoVonHabsburg.dds"
+	expire = "2011.1.1"
+	ideology = royal_democrat
+}
+
+1961.4.11 = {
+	set_politics = {
+
+		parties = {
+			socialist = {
+				popularity = 36	
+			}
+			conservative = {
+				popularity = 38	
+			}
+			centrist = {
+				popularity = 26
+			}
+		}
+			
+		ruling_party = conservative
+		last_election = "1959.6.6"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Alfons Gorbach"
+		picture = "Alfons_Gorbach.dds"
+		expire = "1972.7.31"
+		ideology = conservatism
+	}
+
+}
+1964.4.2 = {
+	create_country_leader = {
+		name = "Josef Klaus"
+		picture = "Josef_Klaus.dds"
+		expire = "2001.7.26"
+		ideology = conservatism
+	}
+}
+
+1970.4.21 = {
+	set_politics = {
+
+		parties = {
+			socialist = { 
+				popularity = 51
+			}
+
+			conservative = {
+				popularity = 41.90
+			}
+
+			centrist = {
+				popularity = 6.10
+			}
+		
+		}
+		
+		ruling_party = socialist
+		last_election = "1979.5.6"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_stability = 0.50
+
+	create_country_leader = {
+		name = "Bruno Kreisky"
+		picture = "Bruno_Kreisky.dds"
+		expire = "1990.7.29"
+		ideology = social_democracy
+	}
+}

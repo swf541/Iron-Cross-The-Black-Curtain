@@ -1,0 +1,25 @@
+state={
+	id=702
+	name="STATE_702"
+	manpower =178066
+	
+	state_category =rural
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 4
+			13014 ={
+				naval_base = 2
+			}
+		}
+		add_core_of = POR
+			victory_points = {
+			13014 5
+		}
+	}
+
+	provinces={
+		13014 
+	}
+}

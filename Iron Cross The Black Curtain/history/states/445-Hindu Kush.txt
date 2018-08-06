@@ -1,0 +1,32 @@
+
+state={
+	id=445
+	name="STATE_445"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		owner = RAJ
+		1947.1.1 = {
+			owner = PAK
+
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+
+		}
+		add_core_of = PAK
+		add_core_of = BAL
+
+	}
+
+	provinces={
+		7975 8044 
+	}
+	manpower=405100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=762
+	name="STATE_762"
+
+	history={
+		owner = SEN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			coal_plant = 1
+
+		}
+		victory_points = {
+			10836 5 
+		}
+		add_core_of = SEN
+		add_core_of = BRK
+		1960.1.1 = {
+			owner = BRK
+			remove_core_of = SEN
+
+		}
+
+	}
+
+	provinces={
+		2001 7950 7983 8071 10836 12851 
+	}
+	manpower=4284000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

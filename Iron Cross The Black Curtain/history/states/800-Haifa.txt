@@ -1,0 +1,32 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = PAL
+		1949.1.1 = {
+			owner = ISR
+
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+            coal_plant = 1
+
+		}
+		victory_points = {
+			1201 5 
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+
+	}
+
+	provinces={
+		1065 1201 
+	}
+	manpower=569323
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

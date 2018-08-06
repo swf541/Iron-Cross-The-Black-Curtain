@@ -1,0 +1,39 @@
+
+state={
+	id=783
+	name="STATE_783"
+	resources={
+		rubber=38
+		oil=24
+	}
+
+	history={
+		owner = BRU
+		add_core_of = MAL
+		add_core_of = NBR
+		add_core_of = BRU
+                victory_points = {7387 5}
+		buildings = {
+		infrastructure = 2
+		air_base = 1
+			industrial_complex = 1
+            coal_plant = 1
+			7387 = {
+				naval_base = 2
+
+			}
+
+		}
+		1980.1.1 ={
+			set_province_name = { id = 7387 name = "Bandar Seri Begawan" }
+		}
+
+	}
+
+	provinces={
+		7387 
+	}
+	manpower=48001
+	buildings_max_level_factor=1.000
+	state_category= rural
+}

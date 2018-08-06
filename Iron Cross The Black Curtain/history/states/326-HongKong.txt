@@ -1,0 +1,26 @@
+state={
+	id=326
+	name="STATE_326"
+	manpower =1973998
+	state_category =city
+	history={
+		owner = HOK
+		add_core_of = CHI
+        add_core_of = PRC
+        add_core_of = HOK
+		victory_points = {
+			10062 15
+		}
+		buildings = {
+			infrastructure = 8
+			air_base =7
+			industrial_complex = 2 
+			10062 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces={
+		10062
+	}
+}
